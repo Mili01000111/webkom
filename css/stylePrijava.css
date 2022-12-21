@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.preheader {
+  font-weight: bold;
+  background-color: #1a1819;
+  height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  position: fixed;
+}
+.preheader a:link {
+  text-decoration: none;
+  color: white;
+}
+.preheader a:visited {
+  color: white;
+  text-decoration: none;
+}
+.preheader a :hover {
+  font-style: italic;
+  color: black;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.logo img {
+  height: 80px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+.body1 {
+  background-image: url(../Slike/Pocetna.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.naslov p {
+  color: aliceblue;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 350px bold;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-direction: normal;
+  border-radius: 24px;
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0.2);
+}
+.box h1 {
+  color: aliceblue;
+  font-weight: 400;
+}
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #3498db;
+  padding: 10px 8px;
+  width: 180px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 220px;
+  border-color: #dba41a;
+}
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #dba41a;
+  padding: 10px 30px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.box input[type="submit"]:hover {
+  background-color: #dba41a;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.preheader {
+  font-weight: bold;
+  background-color: #1a1819;
+  height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  position: fixed;
+}
+.preheader a:link {
+  text-decoration: none;
+  color: white;
+}
+.preheader a:visited {
+  color: white;
+  text-decoration: none;
+}
+.preheader a :hover {
+  color: black;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.logo img {
+  height: 80px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+.body2 {
+  background-image: url(../Slike/Kontakt.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.naslov2 {
+  color: #1a1819;
+  padding-top: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body2 .forma {
+  font-weight: bold;
+  text-align: center;
+}
+.body2 .box {
+  color: aliceblue;
+  border-radius: 24px;
+  width: 400px;
+  padding: 20px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+}
+.body3 {
+  background-image: url(../Slike/O_nama.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #1a1819;
+}
+.naslov3 {
+  color: #1a1819;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-direction: normal;
+}
+.naslov3 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  width: 800px;
+  margin: auto;
+}
+.naslov4 {
+  color: #1a1819;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body4 {
+  background-image: url(../Slike/usluge.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  align-content: center;
+}
+table,
+th,
+td {
+  border: 4px solid black;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
